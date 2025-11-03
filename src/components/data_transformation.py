@@ -54,7 +54,7 @@ class DataTransformation:
                 ]
 
             )
-
+            # logging the categorical and numerical columns
             logging.info(f"Categorical columns: {categorical_columns}")
             logging.info(f"Numerical columns: {numerical_columns}")
 
